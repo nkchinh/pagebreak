@@ -1,0 +1,25 @@
+{
+  "name": "pagebreak",
+  "version": "1.0.0",
+  "description": "A tool to separate html document by page height",
+  "main": "gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nkchinh/pageBreak.git"
+  },
+  "author": "Chinh Nguyen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nkchinh/pageBreak/issues"
+  },
+  "homepage": "https://github.com/nkchinh/pageBreak#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-uglify": "^3.0.1"
+  }
+}
