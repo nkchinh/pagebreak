@@ -28,6 +28,12 @@
 			}
 			return this;
 		},
+		addContainer: function(element){
+			if(!this.$opt.conts){
+				this.$opt.conts = [];
+			}
+			this.$opt.conts.push(element);
+		},
 		each: function(callback){
 			this.$_cache || calculate.call(this);
 			for(var i = 0, l = this.$_cache.marks.length; i < l; i++){
