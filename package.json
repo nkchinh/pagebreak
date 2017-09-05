@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nkchinh/pageBreak.git"
+    "url": "git+https://github.com/nkchinh/pagebreak.git"
   },
   "author": "Chinh Nguyen",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/nkchinh/pageBreak/issues"
+    "url": "https://github.com/nkchinh/pagebreak/issues"
   },
-  "homepage": "https://github.com/nkchinh/pageBreak#readme",
+  "homepage": "https://github.com/nkchinh/pagebreak#readme",
   "dependencies": {},
   "devDependencies": {
     "grunt": "^1.0.1",

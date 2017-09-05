@@ -4,15 +4,15 @@ module.exports = function(grunt) {
 	grunt.initConfig({
 		pkg: grunt.file.readJSON('package.json'),
 		concat:{
+			options: {
+				banner: '/**\n' +
+				'*** <%= pkg.name %> - <%= pkg.version %>\n' +
+				'*** <%= pkg.homepage %>\n' +
+				'*** Copyright (c) <%= grunt.template.today("yyyy") %> <%= pkg.author %>\n' +
+				'*** License: <%= pkg.license %>\n' +
+				'**/\n'
+			},
 			all:{
-				options: {
-					banner: '/**\n' +
-					'*** <%= pkg.name %> - <%= pkg.version %>\n' +
-					'*** <%= pkg.homepage %>\n' +
-					'*** Copyright (c) <%= grunt.template.today("yyyy") %> <%= pkg.author %>\n' +
-					'*** License: <%= pkg.license %>\n' +
-					'**/\n'
-				},
 				src:[
 					"src/*.js"
 				],
@@ -21,7 +21,12 @@ module.exports = function(grunt) {
 		},
 		uglify: {
 			options: {
-				banner: '/*! <%= pkg.name %> <%= grunt.template.today("yyyy-mm-dd") %> */\n',
+				banner: '/**\n' +
+				'*** <%= pkg.name %> - <%= pkg.version %>\n' +
+				'*** <%= pkg.homepage %>\n' +
+				'*** Copyright (c) <%= grunt.template.today("yyyy") %> <%= pkg.author %>\n' +
+				'*** License: <%= pkg.license %>\n' +
+				'**/\n',
 				sourceMap: true
 			},
 			all:{

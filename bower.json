@@ -1,0 +1,18 @@
+{
+  "name": "pagebreak",
+  "description": "A tool to separate html document by page height",
+  "main": "gruntfile.js",
+  "authors": [
+    "Chinh Nguyen"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/nkchinh/pagebreak",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "wwwroot/lib",
+    "test",
+    "tests"
+  ]
+}

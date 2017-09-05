@@ -1,6 +1,6 @@
 /**
 *** pagebreak - 1.0.0
-*** https://github.com/nkchinh/pageBreak#readme
+*** https://github.com/nkchinh/pagebreak#readme
 *** Copyright (c) 2017 Chinh Nguyen
 *** License: MIT
 **/

@@ -1,4 +1,4 @@
-# pageBreak
+# pagebreak
 
 Utility to count number of pages and/or automatically insert page separators based on HTML DOM.
 
