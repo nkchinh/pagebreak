@@ -1,6 +1,6 @@
 {
   "name": "pagebreak",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A tool to separate html document by page height",
   "main": "gruntfile.js",
   "scripts": {
